@@ -60,7 +60,7 @@
 
       <div class="field">
         <%= f.label :dob %><br />
-        <%= f.date_field :dob, autocomplete: "off", class: "date" %>
+        <%= f.text_field :dob, autocomplete: "off", class: "date" %>
       </div>
 
       <div class="actions">
@@ -81,3 +81,6 @@
     margin-bottom: 10px !important;
   }
 </style>
+<script type="text/javascript">
+  $(".date").datepicker({dateFormat: "dd/mm/yy"});
+</script>

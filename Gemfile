@@ -56,4 +56,3 @@ end
 gem 'open-weather'
 gem 'gmaps4rails'
 gem 'geocoder'
-gem 'jquery_datepicker'
